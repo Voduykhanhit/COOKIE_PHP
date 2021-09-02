@@ -1,0 +1,51 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin:0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.form{
+    margin: auto auto;
+    max-width: 1000px;
+    text-align: center;
+    background-color: black;
+    padding:5px 0px;
+}
+.form__title{
+    font-size: 1.4rem;
+    color: #fff;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    margin:6px 0px;
+    align-items: center;
+}
+.form-group label{
+    min-width: 55px;
+    margin-right: 5px;
+    color:#fff;
+}
+.username{
+
+}
+.password{
+
+}
+.btn--primary{
+    outline: none;
+    background-color: blue;
+    border:unset;
+    color:#fff;
+    padding:10px 10px;
+    border-radius:2px;
+    border:1px solid white;
+}
+.form-check{
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
